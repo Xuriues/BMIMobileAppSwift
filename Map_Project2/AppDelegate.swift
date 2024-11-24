@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Map_Project2
+//  MAP_Project
 //
-//  Created by Shaun on 7/8/20.
+//  Created by Shaun on 28/7/20.
 //  Copyright © 2020 Shaun. All rights reserved.
 //
 
@@ -14,7 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        UITabBar.appearance().tintColor = .black
+        UITabBar.appearance().barTintColor = UIColor.darkbgColor
         return true
     }
 

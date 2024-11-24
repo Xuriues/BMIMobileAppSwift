@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6038DA725071DC600FDBF38 /* Tornado Serif Font - Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = B6038DA625071DC600FDBF38 /* Tornado Serif Font - Demo.otf */; };
+		B6038DA925071DEE00FDBF38 /* Bristone.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6038DA825071DEE00FDBF38 /* Bristone.ttf */; };
+		B6038DAB2507279B00FDBF38 /* Emphatic Regular - DEMO.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6038DAA2507279B00FDBF38 /* Emphatic Regular - DEMO.ttf */; };
+		B61B6CC52504E5D900067609 /* Bellblon.otf in Resources */ = {isa = PBXBuildFile; fileRef = B61B6CC42504E5D900067609 /* Bellblon.otf */; };
+		CE1F53EB24F0F529001E6532 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F53EA24F0F529001E6532 /* TabBarViewController.swift */; };
 		CE46D29A24DD6F2800F961A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D29924DD6F2800F961A8 /* AppDelegate.swift */; };
 		CE46D29C24DD6F2800F961A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D29B24DD6F2800F961A8 /* SceneDelegate.swift */; };
-		CE46D29E24DD6F2800F961A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D29D24DD6F2800F961A8 /* ViewController.swift */; };
 		CE46D2A124DD6F2800F961A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE46D29F24DD6F2800F961A8 /* Main.storyboard */; };
 		CE46D2A324DD6F3700F961A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE46D2A224DD6F3700F961A8 /* Assets.xcassets */; };
 		CE46D2A624DD6F3700F961A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE46D2A424DD6F3700F961A8 /* LaunchScreen.storyboard */; };
 		CE46D2B124DD6F3700F961A8 /* Map_Project2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D2B024DD6F3700F961A8 /* Map_Project2Tests.swift */; };
+		CE46D2BE24DD748700F961A8 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D2BD24DD748700F961A8 /* Design.swift */; };
+		CE46D2C924DD7E7500F961A8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D2C824DD7E7500F961A8 /* LoginViewController.swift */; };
+		CE46D2D024DD826D00F961A8 /* PassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D2CF24DD826D00F961A8 /* PassData.swift */; };
+		CE46D2D524DD84FE00F961A8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D2D424DD84FE00F961A8 /* SignupViewController.swift */; };
+		CE46D2D724DD8BF300F961A8 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D2D624DD8BF300F961A8 /* BMIViewController.swift */; };
+		CE46D2D924DD9BE900F961A8 /* CalorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D2D824DD9BE900F961A8 /* CalorieViewController.swift */; };
+		CE46D2DB24DDA67000F961A8 /* CalorieResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D2DA24DDA67000F961A8 /* CalorieResultViewController.swift */; };
+		CE46D2DD24DDA67F00F961A8 /* BMIResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D2DC24DDA67F00F961A8 /* BMIResultViewController.swift */; };
+		CEB0761C24DE917C00C511C2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0761B24DE917C00C511C2 /* TableViewController.swift */; };
+		CEF1FBD824FCAB3600C71F38 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1FBD724FCAB3600C71F38 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6038DA625071DC600FDBF38 /* Tornado Serif Font - Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tornado Serif Font - Demo.otf"; sourceTree = "<group>"; };
+		B6038DA825071DEE00FDBF38 /* Bristone.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bristone.ttf; sourceTree = "<group>"; };
+		B6038DAA2507279B00FDBF38 /* Emphatic Regular - DEMO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Emphatic Regular - DEMO.ttf"; sourceTree = "<group>"; };
+		B61B6CC42504E5D900067609 /* Bellblon.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bellblon.otf; sourceTree = "<group>"; };
+		CE1F53EA24F0F529001E6532 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		CE46D29624DD6F2800F961A8 /* Map_Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Map_Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE46D29924DD6F2800F961A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE46D29B24DD6F2800F961A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE46D29D24DD6F2800F961A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE46D2A024DD6F2800F961A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE46D2A224DD6F3700F961A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE46D2A524DD6F3700F961A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +56,16 @@
 		CE46D2AC24DD6F3700F961A8 /* Map_Project2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Map_Project2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE46D2B024DD6F3700F961A8 /* Map_Project2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_Project2Tests.swift; sourceTree = "<group>"; };
 		CE46D2B224DD6F3700F961A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE46D2BD24DD748700F961A8 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		CE46D2C824DD7E7500F961A8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE46D2CF24DD826D00F961A8 /* PassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassData.swift; sourceTree = "<group>"; };
+		CE46D2D424DD84FE00F961A8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		CE46D2D624DD8BF300F961A8 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
+		CE46D2D824DD9BE900F961A8 /* CalorieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieViewController.swift; sourceTree = "<group>"; };
+		CE46D2DA24DDA67000F961A8 /* CalorieResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieResultViewController.swift; sourceTree = "<group>"; };
+		CE46D2DC24DDA67F00F961A8 /* BMIResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIResultViewController.swift; sourceTree = "<group>"; };
+		CEB0761B24DE917C00C511C2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CEF1FBD724FCAB3600C71F38 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B61B6CC12504E3A600067609 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				B6038DA825071DEE00FDBF38 /* Bristone.ttf */,
+				B6038DAA2507279B00FDBF38 /* Emphatic Regular - DEMO.ttf */,
+				B6038DA625071DC600FDBF38 /* Tornado Serif Font - Demo.otf */,
+				B61B6CC42504E5D900067609 /* Bellblon.otf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
 		CE46D28D24DD6F2800F961A8 = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +118,19 @@
 		CE46D29824DD6F2800F961A8 /* Map_Project2 */ = {
 			isa = PBXGroup;
 			children = (
+				B61B6CC12504E3A600067609 /* font */,
+				CEB0761A24DE885800C511C2 /* BMI */,
+				CEB0761924DE884F00C511C2 /* Calorie */,
+				CE46D2BF24DD76AF00F961A8 /* ViewControllers */,
+				CE46D2BC24DD745F00F961A8 /* SwiftFiles */,
 				CE46D29924DD6F2800F961A8 /* AppDelegate.swift */,
 				CE46D29B24DD6F2800F961A8 /* SceneDelegate.swift */,
-				CE46D29D24DD6F2800F961A8 /* ViewController.swift */,
 				CE46D29F24DD6F2800F961A8 /* Main.storyboard */,
 				CE46D2A224DD6F3700F961A8 /* Assets.xcassets */,
 				CE46D2A424DD6F3700F961A8 /* LaunchScreen.storyboard */,
 				CE46D2A724DD6F3700F961A8 /* Info.plist */,
+				CE46D2CF24DD826D00F961A8 /* PassData.swift */,
+				CEF1FBD724FCAB3600C71F38 /* Alert.swift */,
 			);
 			path = Map_Project2;
 			sourceTree = "<group>";
@@ -97,6 +142,43 @@
 				CE46D2B224DD6F3700F961A8 /* Info.plist */,
 			);
 			path = Map_Project2Tests;
+			sourceTree = "<group>";
+		};
+		CE46D2BC24DD745F00F961A8 /* SwiftFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CE46D2BD24DD748700F961A8 /* Design.swift */,
+			);
+			path = SwiftFiles;
+			sourceTree = "<group>";
+		};
+		CE46D2BF24DD76AF00F961A8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEB0761B24DE917C00C511C2 /* TableViewController.swift */,
+				CE46D2C824DD7E7500F961A8 /* LoginViewController.swift */,
+				CE46D2D424DD84FE00F961A8 /* SignupViewController.swift */,
+				CE1F53EA24F0F529001E6532 /* TabBarViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CEB0761924DE884F00C511C2 /* Calorie */ = {
+			isa = PBXGroup;
+			children = (
+				CE46D2D824DD9BE900F961A8 /* CalorieViewController.swift */,
+				CE46D2DA24DDA67000F961A8 /* CalorieResultViewController.swift */,
+			);
+			path = Calorie;
+			sourceTree = "<group>";
+		};
+		CEB0761A24DE885800C511C2 /* BMI */ = {
+			isa = PBXGroup;
+			children = (
+				CE46D2D624DD8BF300F961A8 /* BMIViewController.swift */,
+				CE46D2DC24DDA67F00F961A8 /* BMIResultViewController.swift */,
+			);
+			path = BMI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +262,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6038DAB2507279B00FDBF38 /* Emphatic Regular - DEMO.ttf in Resources */,
+				B6038DA925071DEE00FDBF38 /* Bristone.ttf in Resources */,
 				CE46D2A624DD6F3700F961A8 /* LaunchScreen.storyboard in Resources */,
 				CE46D2A324DD6F3700F961A8 /* Assets.xcassets in Resources */,
 				CE46D2A124DD6F2800F961A8 /* Main.storyboard in Resources */,
+				B6038DA725071DC600FDBF38 /* Tornado Serif Font - Demo.otf in Resources */,
+				B61B6CC52504E5D900067609 /* Bellblon.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE46D29E24DD6F2800F961A8 /* ViewController.swift in Sources */,
+				CE46D2D924DD9BE900F961A8 /* CalorieViewController.swift in Sources */,
+				CE46D2DD24DDA67F00F961A8 /* BMIResultViewController.swift in Sources */,
+				CE46D2D724DD8BF300F961A8 /* BMIViewController.swift in Sources */,
+				CE46D2D524DD84FE00F961A8 /* SignupViewController.swift in Sources */,
+				CE46D2BE24DD748700F961A8 /* Design.swift in Sources */,
+				CEF1FBD824FCAB3600C71F38 /* Alert.swift in Sources */,
+				CE46D2D024DD826D00F961A8 /* PassData.swift in Sources */,
+				CEB0761C24DE917C00C511C2 /* TableViewController.swift in Sources */,
 				CE46D29A24DD6F2800F961A8 /* AppDelegate.swift in Sources */,
+				CE46D2C924DD7E7500F961A8 /* LoginViewController.swift in Sources */,
+				CE1F53EB24F0F529001E6532 /* TabBarViewController.swift in Sources */,
+				CE46D2DB24DDA67000F961A8 /* CalorieResultViewController.swift in Sources */,
 				CE46D29C24DD6F2800F961A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

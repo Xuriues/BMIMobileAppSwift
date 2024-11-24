@@ -1,23 +1,50 @@
 //
 //  SceneDelegate.swift
-//  Map_Project2
+//  MAP_Project
 //
-//  Created by Shaun on 7/8/20.
+//  Created by Shaun on 28/7/20.
 //  Copyright © 2020 Shaun. All rights reserved.
 //
 
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-
     var window: UIWindow?
-
-
+    func changeRootViewController(_ vc: UIViewController, animated: Bool = true)
+    {
+        guard let window = self.window else {
+            return
+        }
+        window.rootViewController = vc
+        
+        
+        //Animation
+        UIView.transition(with: window,
+                          duration: 0.5,
+                          options: [.transitionFlipFromLeft],
+                          animations: nil,
+                          completion: nil)
+    }
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        if UserDefaults.standard.string(forKey: "username") != nil
+        {
+            let mainTabBarController = storyboard.instantiateViewController(identifier: "MainTabBarController")
+            window?.rootViewController = mainTabBarController
+        }
+        else
+        {
+            let loginNavController = storyboard.instantiateViewController(identifier: "LoginNavigationController")
+            window?.rootViewController = loginNavController
+        }
+        
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
